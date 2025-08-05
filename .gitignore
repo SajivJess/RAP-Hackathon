@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# C extensions
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+pip-selfcheck.json
+
+# VSCode settings
+.vscode/
+*.code-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+logs/
+*.sqlite3
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# ollama or LLM models (if local folder is created, otherwise remove)
+.ollama/
+
+# Temporary files from newspaper, trafilatura, etc
+*.txt
+
+# Compiled object files
+*.o
+*.obj
+
+# Model folders
+vosk-model-*/
